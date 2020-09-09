@@ -3,7 +3,7 @@ import React from 'react';
 
 /* example of functional (stateless) component */
 
-const Greet=()=><h1>Greetings from pie</h1>
+const Greet=()=><h1>Greetings from Functional Component</h1>
 
 /* defult export:means we can give any name to it when importing in other component */
 export default Greet;

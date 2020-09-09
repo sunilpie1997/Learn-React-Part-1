@@ -1,0 +1,49 @@
+
+    Components
+        ->  reusable part of user interface.
+        ->  can be divided into 2 types:
+
+            ->  Stateless functonal Components
+                ->   Simple Javascript fumctions
+                
+            ->  Stateful Class Component
+                ->  class extending Component class
+                ->  must contain render() method
+
+
+WHICH TO CHOOSE AND WHEN?
+
+    Functional Stateless Component
+                                 |---------------------|
+        ->  properties --input-->| Javascript function | ---output-->HTML (JSX)
+                                 |---------------------|
+        ->  USE AS MUCH AS POSSIBLE
+
+        ->  Absence of 'this' keyword
+
+        ->  Solution without STATE ---no complex logic
+
+        ->  stateless/presentational/dumb
+
+        ->  ex:Greet.js
+
+    
+    Class Stateful Component
+                                   |------------------|
+        ->  properties  --input--> | ES6 Class        |  --output--> HTML (JSX)
+                                   |                  |
+                                   | private internal |
+                                   | STATE            |
+                                   |------------------|
+
+        ->  more feature rich.
+
+        ->  maintain their own private data state
+
+        ->  complex UI logic
+
+        ->  Provide lifecycle hooks
+
+        ->  stateful/smart/container
+
+        ->  ex:Welcome.js
