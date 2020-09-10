@@ -3,32 +3,32 @@
         ->  reusable part of user interface.
         ->  can be divided into 2 types:
 
-            ->  Stateless functonal Components
+            ->  functonal Components
                 ->   Simple Javascript fumctions
                 
-            ->  Stateful Class Component
+            ->  Class Component
                 ->  class extending Component class
                 ->  must contain render() method
 
 
 WHICH TO CHOOSE AND WHEN?
 
-    Functional Stateless Component
+    Functional Component
                                  |---------------------|
         ->  properties --input-->| Javascript function | ---output-->HTML (JSX)
+                                 | can also have state,|
+                                 | after hooks update  |
+                                 | in 2018             |
                                  |---------------------|
-        ->  USE AS MUCH AS POSSIBLE
 
-        ->  Absence of 'this' keyword
+        ->  can also have state and lifecycle hooks after 'React' update in 2018
 
-        ->  Solution without STATE ---no complex logic
-
-        ->  stateless/presentational/dumb
+        ->  CAN BE USED when rendering basic UI (NO COMPLEX LOGIC)
 
         ->  ex:Greet.js
 
     
-    Class Stateful Component
+    Class Component
                                    |------------------|
         ->  properties  --input--> | ES6 Class        |  --output--> HTML (JSX)
                                    |                  |
@@ -43,7 +43,5 @@ WHICH TO CHOOSE AND WHEN?
         ->  complex UI logic
 
         ->  Provide lifecycle hooks
-
-        ->  stateful/smart/container
 
         ->  ex:Welcome.js

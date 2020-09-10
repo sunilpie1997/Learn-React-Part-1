@@ -1,6 +1,6 @@
 import React from 'react';
 
-/* example of class (statelfull) component */
+/* example of class  component */
 class Welcome extends React.Component{
 
     render(){

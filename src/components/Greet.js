@@ -1,7 +1,7 @@
 /* needed when using JSX,even though 'React' keyword is not used below */
 import React from 'react';
 
-/* example of functional (stateless) component */
+/* example of functional  component */
 
 const Greet=()=><h1>Greetings from Functional Component</h1>
 
