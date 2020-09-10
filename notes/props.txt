@@ -1,0 +1,3 @@
+    Props
+        ->  optional input passes to component
+        ->  readonly i.e immutable

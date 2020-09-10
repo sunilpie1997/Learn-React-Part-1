@@ -1,0 +1,18 @@
+    Props Vs State
+
+    Props                                               State
+        ->  get passed to component                         ->  is managed within component
+                                            
+                                            Analogy
+        
+        ->   function parameters                            ->  variables declared inside function body
+
+        ->  props are IMMUTABLE                             ->  state can be CHANGED
+
+        ->  props      -- in functional component           ->  useState Hook -- in functional component
+            
+            this.props -- in class component                    this.state    -- in class Component
+
+        
+
+    

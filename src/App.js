@@ -4,11 +4,19 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import HelloWithoutJsx from './components/HelloWithoutJsx';
 import HelloWithJsx from './components/HelloWithJsx';
+import Message from './components/Message';
 
 function App() {
   return (
     
+    <div className="App">
+
+    <Message/>
+
+    </div>
     
+    /*
+
     <div className="App">
     
       
@@ -49,6 +57,7 @@ function App() {
 
     */
 
+    
   );
 }
 
