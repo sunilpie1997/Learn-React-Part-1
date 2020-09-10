@@ -1,6 +1,9 @@
 import React from 'react';
 
-/* we will impement without usinf=g JSX */
+/* we will impement without usinfg JSX 
+
+    reference:'./components/JSX.txt' 
+*/
 const HelloWithoutJsx=()=>{
 
     /*  Here,second parameter to 'createElement' is null,

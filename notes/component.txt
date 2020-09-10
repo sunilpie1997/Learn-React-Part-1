@@ -1,5 +1,6 @@
 
-    Components
+    ## Components ##
+
         ->  reusable part of user interface.
         ->  can be divided into 2 types:
 
@@ -11,7 +12,7 @@
                 ->  must contain render() method
 
 
-WHICH TO CHOOSE AND WHEN?
+    ## WHICH TO CHOOSE AND WHEN? ##
 
     Functional Component
                                  |---------------------|

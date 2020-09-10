@@ -1,5 +1,6 @@
 import React from 'react';
 
+/* reference : './components/props.txt','./components/state.txt' */
 /* example of class  component */
 class Welcome extends React.Component{
 

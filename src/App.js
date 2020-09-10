@@ -5,16 +5,30 @@ import Welcome from './components/Welcome';
 import HelloWithoutJsx from './components/HelloWithoutJsx';
 import HelloWithJsx from './components/HelloWithJsx';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     
     <div className="App">
 
-    <Message/>
+    
+    <Counter/>
+
 
     </div>
+
+    /*
+    <div className="App">
+
     
+    <Message/>
+
+
+    </div>
+    */
+
+
     /*
 
     <div className="App">

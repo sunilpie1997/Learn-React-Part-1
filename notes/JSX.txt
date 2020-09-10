@@ -1,4 +1,4 @@
-Javascript XML (JSX)
+    ## Javascript XML (JSX) ##
     ->  extension to javascript language syntax.
 
     ->  write XML like code for elements and components
