@@ -15,45 +15,4 @@
 
         
 
-    ## Things To Note ## 
-
-        NOTE:below rules can be clarified by using 'Counter' Component as Example
-
-
-        ->  always make use of setState and never modify the state directly.
-
-            ->  ex: DON'T DO THIS
-
-                    this.state.count=this.state.count+1;
-                    console.log(this.state.count);
-            
-                    this increments count value in console but React does not increment counter value in UI
-
-                screenshot:'./pictures/setState_part1.png'
-
     
-        ->  if the code has to be executed after state has been updated,
-            place the code in the callback function which is the
-            second arguement to the setState method.
-
-            ->  ex: DO THIS
-
-                    this.setState({ 
-                        ....,
-                        ()=>{console.log(this.state.count);
-                        })
-
-
-        ->  when you have to update state based on the previous state value,
-            pass the function as the arguement instead of regular object
-
-            ->  ex:DON'T DO THIS
-
-                    this.increment();
-                    this.increment();
-                    this.increment();
-                    this.increment();
-                    this.increment();
-                    console.log(this.state.count);
-                
-                screenshot:'./pictures/setState_part3.png'
