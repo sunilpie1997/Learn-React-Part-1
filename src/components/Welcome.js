@@ -5,7 +5,15 @@ class Welcome extends React.Component{
 
     render(){
 
-        return <h1>Greeting from Class Component</h1>
+        //this keyword is available in class component
+        return (
+        
+            <div>
+                <h1>Greeting from Class Component</h1>
+                <h2>{this.props.name} a.k.a {this.props.heroName}</h2>
+            </div>
+
+        );
     }
 }
 

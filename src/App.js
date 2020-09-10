@@ -8,15 +8,37 @@ import HelloWithJsx from './components/HelloWithJsx';
 function App() {
   return (
     
-    /*
+    
     <div className="App">
     
       
-     <Greet/>
-     <Welcome/>
+      <Greet name="PIE" heroName="Superman">
+
+        <p>This is children props</p>
+
+     </Greet>
+
+
+     <Greet name="RAJU" heroName="Batman">
+
+        <button>Action</button>
+
+     </Greet>
+
+
+     <Greet name="BATARI" heroName="Flash">
+
+     </Greet>
+
+     
+     <Welcome name="KANHAI" heroName="Aquaman">
+
+     </Welcome>
      
     </div>
-    */
+    
+
+    /*
    <div className="App">
     
       
@@ -24,6 +46,8 @@ function App() {
      <HelloWithJsx/>
      
     </div>
+
+    */
 
   );
 }

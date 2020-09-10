@@ -25,6 +25,8 @@ WHICH TO CHOOSE AND WHEN?
 
         ->  CAN BE USED when rendering basic UI (NO COMPLEX LOGIC)
 
+        ->  absence of 'this' keyword
+
         ->  ex:Greet.js
 
     
@@ -43,5 +45,7 @@ WHICH TO CHOOSE AND WHEN?
         ->  complex UI logic
 
         ->  Provide lifecycle hooks
+
+        ->  presence of 'this' keyword
 
         ->  ex:Welcome.js
